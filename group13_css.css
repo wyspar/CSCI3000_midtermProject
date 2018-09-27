@@ -1,0 +1,10 @@
+/* Name: Douglas Richardson
+Date: 9/27/18
+Desc: CSCI 3000 DA C0. Midterm CSS.
+ */
+ 
+.uk-background-primary{
+background-image:url("./images/background1.jpg");
+height: 1000px;
+color: #ffffff;
+}

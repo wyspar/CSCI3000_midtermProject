@@ -3,8 +3,46 @@ Date: 9/27/18
 Desc: CSCI 3000 DA C0. Midterm CSS.
  */
  
-.uk-background-primary{
+/* .uk-background-primary{
 background-image:url("./images/background1.jpg");
 height: 1000px;
 color: #ffffff;
+} */
+
+
+body,html{
+	background-color: #0080FF; /* This changes the color of the whole site */
+	color: white;
+	
+}
+
+/* Top of the site */
+div.header{
+	max-width:100%;
+	height:80px;
+	background-color: #C1C1C1;
+}
+/* UNG logo */
+img.logo1{
+	height:75px;
+}
+/* Custom Font Image */
+img.title{
+	height:75px;
+	width:250px;
+}
+/* Navigation bar container, !important fixes the background-color only being applied to the elements within*/
+.uk-navbar-container{
+	background-color: #C1C1C1 !important;
+	float:right;
+	height:50px;
+}
+
+.uk-navbar-dropdown {
+  color: #ffffff;
+}
+a.navBar-button{
+	border: 2px solid white;
+	width:100px;
+	color:white;
 }

@@ -2,7 +2,7 @@
 <!--
 Name: Douglas Richardson
 Date: 9/25/18
-Desc: CSCI 3000 DA C0. This is group 13 midterm project. We are using UIKit
+Desc: CSCI 3000 DA C0. This is group 13 midterm project. We are using UIKit. Website about an UNG Computer Science Club
 -->
 <html>
 <head>
@@ -17,7 +17,32 @@ Desc: CSCI 3000 DA C0. This is group 13 midterm project. We are using UIKit
 
 </head>
 <body>
-	<div class="uk-background-blend-hard-light uk-background-primary uk-background-cover uk-background-center-center uk-background-fixed";>
+<!-- 	<div class="uk-background-blend-hard-light uk-background-primary uk-background-cover uk-background-center-center uk-background-fixed";> -->
+	<div class="header">
+		<img class="logo1" src="./images/ung_logo1.png"> </img>
+		<img class="title" src="./images/title.png"> </img>
+		<nav class="uk-navbar-container " uk-navbar>
+			<!-- uk-align-center, centers the navbar to the header -->
+			<div class="uk-navbar uk-align-center">
+				<ul class="uk-navbar-nav">
+					<!-- class="uk-active" -->
+					<li><a class="navBar-button" href="#">Home</a></li>
+					<li class="navBar-button">
+						<a href="#">Projects</a>
+						<div class="uk-navbar-dropdown">
+							<ul class="uk-nav uk-navbar-dropdown-nav">
+								<li><a href="#">Project 1</a></li>
+								<li><a href="#">Project 2</a></li>
+								<li><a href="#">Super Secret</a></li>
+							</ul>
+						</div>
+					</li>
+					<li class="navBar-button"><a href="#">About</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+	
 	<div uk-spinner></div>
 	<p>TEST</p>
 </body>
